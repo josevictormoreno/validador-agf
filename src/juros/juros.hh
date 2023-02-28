@@ -1,6 +1,8 @@
 #ifndef JUROS
 #define JUROS
 
-float juros();
+void juros();
+void jurosComAportes();
+void jurosAlterado();
 
 #endif
