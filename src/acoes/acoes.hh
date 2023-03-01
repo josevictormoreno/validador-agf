@@ -4,6 +4,6 @@
 void fairValue();
 void graham();
 void precoLucro();
-void precoPatrimonial();
+void valorPatrimonial();
 
 #endif

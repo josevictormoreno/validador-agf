@@ -48,7 +48,7 @@ void menuAnalises(){
     std::cout << "=    1- Fair Value                                                 =\n";
     std::cout << "=    2- Graham                                                     =\n";
     std::cout << "=    3- Preço por lucro                                            =\n";
-    std::cout << "=    4- Preço por valor patrimonial                                =\n";
+    std::cout << "=    4- Valor patrimonial                                          =\n";
     std::cout << "=                                                                  =\n";
     std::cout << "=                                                                  =\n";
     std::cout << "=                                                                  =\n";

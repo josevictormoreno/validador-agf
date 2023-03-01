@@ -44,7 +44,7 @@ int main()
             else if (option == 3)
                 precoLucro();
             else if (option == 4)
-                precoPatrimonial();
+                valorPatrimonial();
             else
                 continue;
         }
