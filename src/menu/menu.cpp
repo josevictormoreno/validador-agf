@@ -28,7 +28,7 @@ void menuJuros(){
     std::cout << "=                                                                  =\n";
     std::cout << "=    1- Juros compostos - basicos                                  =\n";
     std::cout << "=    2- Juros compostos - com aportes mensais                      =\n";
-    std::cout << "=    2- Juros compostos - com alteração de renda                   =\n";
+    std::cout << "=    3- Juros compostos - com alteração de renda                   =\n";
     std::cout << "=                                                                  =\n";
     std::cout << "=                                                                  =\n";
     std::cout << "=                                                                  =\n";

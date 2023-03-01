@@ -17,7 +17,7 @@ void juros()
     std::cin >> juros;
     std::cout << "Informe o capital investido: ";
     std::cin >> capital;
-    montante =  capital * (pow(1 + (juros/100), tempo));
+    montante = capital * (pow(1 + (juros / 100), tempo));
     std::cout << "\nMontante: " << montante << "\n\n\n";
     std::cout << "Digite 0 para voltar ao menu principal!";
     std::cin >> tempo;
@@ -26,7 +26,6 @@ void juros()
 
 void jurosComAportes()
 {
-    // M = C × (((1 +(i / 100)) ^ n − 1) ÷ (i / 100));
     int tempo;
     float juros;
     float capital;
@@ -40,7 +39,7 @@ void jurosComAportes()
     std::cin >> juros;
     std::cout << "Informe o capital mensal investido: ";
     std::cin >> capital;
-    montante = capital * ((pow(1+(juros/100), tempo)) - 1) / (juros/100);
+    montante = capital * ((pow(1 + (juros / 100), tempo)) - 1) / (juros / 100);
     std::cout << "\nMontante: " << montante << "\n\n\n";
     std::cout << "Digite 0 para voltar ao menu principal!";
     std::cin >> tempo;
@@ -49,5 +48,26 @@ void jurosComAportes()
 
 void jurosAlterado()
 {
+    int tempo[3];
+    float juros[3];
+    float capital[3];
+    float montante = 0;
+
+    std::cout << '\n';
+    std::cout << "_-¨-_-¨-_-¨-_-¨ Juros Compostos - com alteração na renda ¨-_-¨-_-¨-_-¨-_\n";
+    for (int i = 0; i < 3; i++)
+    {
+        std::cout << "informe o " << i + 1 << "º tempo em meses: ";
+        std::cin >> tempo[i];
+        std::cout << "informe o " << i + 1 << "º juros: ";
+        std::cin >> juros[i];
+        std::cout << "informe o " << i + 1 << "º capital: ";
+        std::cin >> capital[i];
+        montante += capital[i] * ((pow(1 + (juros[i] / 100), tempo[i])) - 1) / (juros[i] / 100);
+    }
+
+    std::cout << "\nMontante: " << montante << "\n\n\n";
+    std::cout << "Digite 0 para voltar ao menu principal!";
+    std::cin >> tempo[1];
     return;
 }
