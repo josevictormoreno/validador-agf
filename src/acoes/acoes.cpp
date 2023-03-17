@@ -1,6 +1,15 @@
 #include <iostream>
 #include <cmath>
 
+void dividendos()
+{
+  float dividendo;
+  float valorAtual;
+  float precoMedio;
+
+  // retornar dividend yeld da ação
+}
+
 void fairValue()
 {
 
