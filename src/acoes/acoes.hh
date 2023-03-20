@@ -5,5 +5,5 @@ void fairValue();
 void graham();
 void precoLucro();
 void valorPatrimonial();
-void dividendo();
+void dividendos();
 #endif

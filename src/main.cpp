@@ -46,7 +46,7 @@ int main()
             else if (option == 4)
                 valorPatrimonial();
             else if (option == 5)
-                dividendo();
+                dividendos();
             else
                 continue;
         }

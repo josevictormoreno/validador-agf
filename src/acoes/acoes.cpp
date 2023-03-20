@@ -8,12 +8,18 @@ void dividendos()
   float valorAtual;
   float precoMedio;
   float resultado;
-
+  std::cout << "Informe o valor atual da ação: ";
+  std::cin >> valorAtual;
+  std::cout << "Informe o preço medio: ";
+  std::cin >> precoMedio;
+  std::cout << "Informe o valor do dividendo: ";
+  std::cin >> dividendo;
   provento = valorAtual * dividendo;
-  resultado = (provento * 100) / precoMedio;
-
+  resultado = (provento * 100) / precoMedio*100;
   std::cout << "\nDividend yield: " << resultado << "\n\n\n";
   std::cout << "Digite 0 para voltar ao menu principal!";
+  std::cin >> resultado;
+  return;
 }
 
 void fairValue()
