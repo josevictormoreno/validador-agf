@@ -45,6 +45,8 @@ int main()
                 precoLucro();
             else if (option == 4)
                 valorPatrimonial();
+            else if (option == 5)
+                dividendo();
             else
                 continue;
         }
