@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include "menu/menu.hh"
 #include "juros/juros.hh"
 #include "acoes/acoes.hh"
