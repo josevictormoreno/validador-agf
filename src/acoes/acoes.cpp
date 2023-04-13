@@ -14,9 +14,9 @@ void dividendos()
   std::cin >> precoMedio;
   std::cout << "Informe o valor do dividendo: ";
   std::cin >> dividendo;
-  provento = valorAtual * dividendo;
-  resultado = (provento * 100) / precoMedio*100;
-  std::cout << "\nDividend yield: " << resultado << "\n\n\n";
+  provento = valorAtual * dividendo/100;
+  resultado = ((provento * 100) / precoMedio*100)/100;
+  std::cout << "\nDividend yield: " << resultado << "%\n\n\n";
   std::cout << "Digite 0 para voltar ao menu principal!";
   std::cin >> resultado;
   return;
