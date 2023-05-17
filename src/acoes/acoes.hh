@@ -2,6 +2,7 @@
 #define ACOES
 
 void fairValue();
+void barsi();
 void graham();
 void precoLucro();
 void valorPatrimonial();

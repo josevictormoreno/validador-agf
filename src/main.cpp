@@ -48,6 +48,8 @@ int main()
                 valorPatrimonial();
             else if (option == 5)
                 dividendos();
+            else if (option == 6)
+                barsi();
             else
                 continue;
         }

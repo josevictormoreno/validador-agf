@@ -50,7 +50,7 @@ void menuAnalises(){
     std::cout << "=    3- Preço por lucro                                            =\n";
     std::cout << "=    4- Valor patrimonial                                          =\n";
     std::cout << "=    5- Dividend Yield                                             =\n";
-    std::cout << "=                                                                  =\n";
+    std::cout << "=    6- Barsi                                                      =\n";
     std::cout << "=                                                                  =\n";
     std::cout << "=    0- voltar                                                     =\n";
     std::cout << "=                                                                  =\n";

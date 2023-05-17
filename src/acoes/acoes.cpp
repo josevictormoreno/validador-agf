@@ -22,6 +22,22 @@ void dividendos()
   return;
 }
 
+void barsi()
+{
+  float dividendo;
+  float minYield;
+  std::cout << '\n';
+  std::cout << "_-¨-_-¨-_-¨-_-¨-_-¨-_-¨-_-  Formula de Barsi  -_-¨-_-¨-_-¨-_-¨-_-¨-_-¨-_-¨\n";
+  std::cout << "Dividendo médio: ";
+  std::cin >> dividendo;
+  std::cout << "Yield desejado: ";
+  std::cin >> minYield;
+  std::cout << "Preço teto: " << dividendo / (minYield / 100) << "\n\n\n";
+  std::cout << "Digite 0 para voltar ao menu principal!";
+  std::cin >> dividendo;
+  return;
+}
+
 void fairValue()
 {
 
