@@ -16,9 +16,28 @@ void dividendos()
   std::cin >> dividendo;
   provento = valorAtual * dividendo/100;
   resultado = ((provento * 100) / precoMedio*100)/100;
-  std::cout << "\nDividend yield: " << resultado << "%\n\n\n";
+  std::cout << "\nDividend yield: " << resultado << "\n\n\n";
   std::cout << "Digite 0 para voltar ao menu principal!";
   std::cin >> resultado;
+  return;
+}
+
+void gordon()
+{
+  float dividendoAtual;
+  float crescimentoDividendo;
+  float retorno;
+  std::cout << '\n';
+  std::cout << "_-¨-_-¨-_-¨-_-¨-_-¨-_-¨-_-  Formula de Gordon  -_-¨-_-¨-_-¨-_-¨-_-¨-_-¨-_-¨\n";
+  std::cout << "Informe o dividendo dos ultimos 12 meses: ";
+  std::cin >> dividendoAtual;
+  std::cout << "Informe o crescimento por ano dos proventos: ";
+  std::cin >> crescimentoDividendo;
+  std::cout << "Informe o retorno desejado: ";
+  std::cin >> retorno;
+  std::cout << "Preço justo: " << ((1 + crescimentoDividendo) * dividendoAtual ) / (retorno - crescimentoDividendo) << "\n\n\n";
+  std::cout << "Digite 0 para voltar ao menu principal!";
+  std::cin >> retorno;
   return;
 }
 
