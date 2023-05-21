@@ -50,6 +50,8 @@ int main()
                 dividendos();
             else if (option == 6)
                 barsi();
+            else if (option == 7)
+                gordon();
             else
                 continue;
         }
