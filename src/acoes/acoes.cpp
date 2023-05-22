@@ -24,9 +24,9 @@ void dividendos()
 
 void gordon()
 {
-  float dividendoAtual;
-  float crescimentoDividendo;
-  float retorno;
+  float dividendoAtual = 0.f;
+  float crescimentoDividendo = 0.f;
+  float retorno = 0.f;
   std::cout << '\n';
   std::cout << "_-¨-_-¨-_-¨-_-¨-_-¨-_-¨-_-  Formula de Gordon  -_-¨-_-¨-_-¨-_-¨-_-¨-_-¨-_-¨\n";
   std::cout << "Informe o dividendo dos ultimos 12 meses: ";
@@ -35,7 +35,7 @@ void gordon()
   std::cin >> crescimentoDividendo;
   std::cout << "Informe o retorno desejado: ";
   std::cin >> retorno;
-  std::cout << "Preço justo: " << ((1 + crescimentoDividendo) * dividendoAtual ) / (retorno - crescimentoDividendo) << "\n\n\n";
+  std::cout << "Preço justo: " << (((1 + (crescimentoDividendo / 100)) * dividendoAtual ) / (retorno - crescimentoDividendo))*100 << "\n\n\n";
   std::cout << "Digite 0 para voltar ao menu principal!";
   std::cin >> retorno;
   return;
