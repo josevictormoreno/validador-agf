@@ -7,3 +7,5 @@ Valor = Ativos - Passivos
 ## Todo 
 - Adicionar funcoes no zf
 - adicionar função de calculo de dividendos
+- testar no server
+
