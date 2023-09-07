@@ -1,5 +1,5 @@
 #include <iostream>
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
 #include "juros.hh"
 
 void juros()
